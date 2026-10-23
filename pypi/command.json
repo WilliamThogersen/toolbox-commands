@@ -1,0 +1,9 @@
+{
+  "name": "pypi",
+  "version": "1.0.0",
+  "description": "Look up a Python package on PyPI: latest version, summary, license, Python requirement and project links",
+  "args": {
+    "name": { "type": "string", "required": true, "description": "Package name, for example requests" }
+  },
+  "permissions": { "http": ["pypi.org"] }
+}

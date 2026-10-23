@@ -1,0 +1,9 @@
+{
+  "name": "gh-prs",
+  "version": "1.0.0",
+  "description": "Open GitHub pull requests waiting for your review. Needs a vault token: run `tb self vault add github --host api.github.com` then `tb self vault allow github gh-prs`",
+  "args": {
+    "limit": { "type": "integer", "default": 20, "description": "Maximum pull requests to list, 1 to 100" }
+  },
+  "permissions": { "http": ["api.github.com"], "vault": ["github"] }
+}

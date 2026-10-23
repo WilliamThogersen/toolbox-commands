@@ -1,0 +1,9 @@
+{
+  "name": "gh-repo",
+  "version": "1.0.0",
+  "description": "Public info about a GitHub repo: stars, description, language, latest release tag and open issues (no token)",
+  "args": {
+    "repo": { "type": "string", "required": true, "description": "Repository as owner/name, for example rust-lang/rust" }
+  },
+  "permissions": { "http": ["api.github.com"] }
+}

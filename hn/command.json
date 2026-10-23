@@ -1,0 +1,9 @@
+{
+  "name": "hn",
+  "version": "1.0.0",
+  "description": "Top Hacker News front page stories: title, url, points and comments link",
+  "args": {
+    "count": { "type": "integer", "default": 10, "description": "How many stories, 1 to 50" }
+  },
+  "permissions": { "http": ["hn.algolia.com"] }
+}

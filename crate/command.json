@@ -1,0 +1,9 @@
+{
+  "name": "crate",
+  "version": "1.0.0",
+  "description": "Look up a Rust crate on crates.io: latest version, description, downloads and repository URL",
+  "args": {
+    "name": { "type": "string", "required": true, "description": "Crate name, for example serde" }
+  },
+  "permissions": { "http": ["crates.io"] }
+}

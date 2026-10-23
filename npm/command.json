@@ -1,0 +1,9 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "Look up an npm package: latest version, description, last-month downloads and repository URL",
+  "args": {
+    "name": { "type": "string", "required": true, "description": "Package name, for example react or @types/node" }
+  },
+  "permissions": { "http": ["registry.npmjs.org", "api.npmjs.org"] }
+}

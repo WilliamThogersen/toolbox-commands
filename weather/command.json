@@ -1,0 +1,11 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "Current weather and a short daily forecast for a place name, via Open-Meteo (no API key)",
+  "args": {
+    "place": { "type": "string", "required": true, "description": "Place name, for example Copenhagen or Austin, Texas" },
+    "days": { "type": "integer", "default": 3, "description": "Forecast days, 1 to 16" },
+    "units": { "type": "string", "default": "metric", "description": "metric (C, km/h, mm) or imperial (F, mph, inch)" }
+  },
+  "permissions": { "http": ["geocoding-api.open-meteo.com", "api.open-meteo.com"] }
+}
